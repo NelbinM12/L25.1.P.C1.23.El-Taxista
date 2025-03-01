@@ -48,7 +48,7 @@ export default class Cl_vTaxi{
         this.salida.innerHTML =`
         <br> Al final el taxista tiene Bs${contBolivares}
         <br> Al final el taxista tiene $${contDolares}
-        <br> Se repartieron ${contCaramelos}
+        <br> Se repartieron ${contCaramelos} caramelos
         <br> El ${porcPagaEnBs}% de los pasajeros paga en bolívares
         `;
     }
