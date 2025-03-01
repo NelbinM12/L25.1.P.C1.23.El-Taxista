@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id = "pasajeroForm">
+        <h3> Datos del Pasajero </h3>
+        <input type="text" id="pasajeroForm_inPasajero" placeholder="Pasajero"></input>
+        <input type="text" id="pasajeroForm_inBolivares" placeholder="Bolivares"></input>
+        <input type="text" id="pasajeroForm_inDolares" placeholder="Dolares"></input>
+        <button id = "pasajeroForm_btProcesar"> Procesar </button>
+    </section>
+    <section id = "mainForm">
+        <h3> Info del Taxista </h3>
+        <label> Cant. de Bolivares </label>
+        <input id="mainForm_iniciaConBolivares" placeholder="Inicial de Bolivares"></input>
+        <label> Cant. de Dolares </label>
+        <input id="mainForm_iniciaConDolares" placeholder="Inicial de Dolares"></input>
+        <button id = "mainForm_btIniciar"> Iniciar </button>
+        <table id = "mainForm_tabla">
+            <tr>
+                <th> Pasajeros </th>
+                <th> Bolivares </th>
+                <th> Dolares </th>
+                <th> Caramelos </th>
+            </tr>
+        </table>
+        <div id = "salida"></div>
+    </section>
+</body>
+<script type = "module">
+    import Cl_principal from "./js/principal.js";
+    new Cl_principal()
+</script>
+</html>
